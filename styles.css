@@ -19,15 +19,22 @@ body {
 #name {
 	font-weight: 900;
 	font-size: 100px;
-	position: absolute;
-		left: 10px;
-		top: 10px;
+	margin-top: 10px;
+	margin-left: 10px;
 }
 
 #time {
 	font-weight: 300;
 	font-size: 30px;
-	position: absolute;
-		left: 10px;
-		top: 125px;
+	margin-left: 10px;
+}
+
+#links_container {
+	font-weight: 100;
+	font-size: 12px;
+	margin-top: 20px;
+}
+
+ul {
+	list-style: none;
 }
