@@ -1,3 +1,22 @@
-h1 {
-	text-align: center;
+/* See various comments to customize! */
+
+@import url('http://fonts.googleapis.com/css?family=Roboto');
+
+#name {
+	font-family: 'Roboto';
+	font-weight: 900;
+	font-size: 100px;
+	position: absolute;
+		left: 10px;
+		top: 10px;
+	color: white;
+}
+
+body {
+	/* Uncomment to use an image as your background. Uses black background by default. */
+	/* background-image: url("Images/background.jpg"); */
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	background-color: black;
 }
