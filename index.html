@@ -11,7 +11,36 @@
 
 	<body>
 		<!-- Change to have your name here, or alternatively just comment it out -->
-		<div id="name">Hello, First Last</div> 
-		Hello?
+		<div id="name">Hello, First Last</div>
+
+		<!-- Time & Date -->
+		<div id="time">
+			<script type="text/javascript">
+				var days = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+				var months = ['January','February','March','April','May','June','July','August','September','October','November','December']
+
+				var now = new Date();
+				var day = days[now.getDay()];
+				var month = months[now.getMonth()];
+				var date = now.getDate();
+				var year = now.getFullYear();
+				// Change how date is formatted here. See Javascript date refernce for more details
+				document.write("It's: " + day + ", " + month + " " + date + ", " +  year)
+			</script>
+		</div>
+
+		<!-- Drop-down menu for links -->
+			<!-- Use ul to declare a sub-menu, and li to declare a entry -->
+		<ul>
+			<li>Everday
+				<ul>
+					<li>YouTube</li>
+					<li>Facebook</li>	
+				</ul>
+			</li>
+
+			<li>School</li>
+			<li>Programming</li>
+		</ul>
 	</body>
 </html>

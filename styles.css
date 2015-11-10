@@ -1,22 +1,33 @@
 /* See various comments to customize! */
 
+/* Fonts: (Feel free to replace these for whatever you want. */
 @import url('http://fonts.googleapis.com/css?family=Roboto');
 
-#name {
+body {
+	/* Change this if you use another font. */
 	font-family: 'Roboto';
+
+	/* Uncomment to use an image as your background. Uses black background by default. */
+	/* background-image: url("Images/background.jpg"); */
+	
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: black;
+	color: white;
+}
+
+#name {
 	font-weight: 900;
 	font-size: 100px;
 	position: absolute;
 		left: 10px;
 		top: 10px;
-	color: white;
 }
 
-body {
-	/* Uncomment to use an image as your background. Uses black background by default. */
-	/* background-image: url("Images/background.jpg"); */
-	background-repeat: no-repeat;
-	background-size: cover;
-
-	background-color: black;
+#time {
+	font-weight: 300;
+	font-size: 30px;
+	position: absolute;
+		left: 10px;
+		top: 125px;
 }
