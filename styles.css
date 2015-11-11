@@ -53,8 +53,9 @@ ul li {
 	display: inline-block;
 	margin-right: -4px;
 	position: relative;
-	padding: 15px 20px;
+	padding: 10px 10px;
 	background: #fff;
+	
 	cursor: pointer;
 	-webkit-transition: all 0.2s;
 	-moz-transition: all 0.2s;
@@ -71,7 +72,7 @@ ul li:hover {
 ul li ul {
 	padding: 0;
 	position: absolute;
-	top: 48px;
+	top: 38px; 
 	left: 0;
 	width: 150px;
 
