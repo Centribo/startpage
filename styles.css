@@ -14,6 +14,7 @@ body {
 	background-size: cover;
 	background-color: black;
 	color: white;
+	/* Replace center with left or right for a different look*/
 	text-align: center;
 	padding-top: 75px;
 }
